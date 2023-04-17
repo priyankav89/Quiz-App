@@ -9,9 +9,6 @@ var users = [];
 var timerInterval = setInterval(function () {
   if (deduction > 0) {
     secondsLeft = secondsLeft - deduction;
-    if (secondsLeft < 0) {
-      showScores()
-    }
   }
   secondsLeft--;
   if (quiz.isEnded()) {
@@ -20,8 +17,9 @@ var timerInterval = setInterval(function () {
     timeEl.textContent = "TIME:" + secondsLeft;
   }
   deduction = 0;
-  if (secondsLeft === 0) {
+  if (secondsLeft <= 0) {
     clearInterval(timerInterval);
+    showScores();
   }
 }, 1000);
 //quiz section if answer wrong minus 10 seconds 
