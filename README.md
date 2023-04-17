@@ -14,7 +14,8 @@ N/A
 
 ## Usage
 
-WHEN the start button is clicked , THEN a timer starts and you are  presented with a question and multiple choices.[!Screenshot](./assets/images/first%20page.png)
+WHEN the start button is clicked , THEN a timer starts and you are  presented with a question and multiple choices.
+![Screenshot](./assets/images/first%20page.png)
 
 ![Screenshot](./assets/images/second.png)
 
