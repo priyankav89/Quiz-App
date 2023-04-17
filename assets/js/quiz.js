@@ -115,9 +115,6 @@ function displayInitial() {
   var input = document.getElementById("initial-form");
   initial = input.elements["initials"].value;
   var users = JSON.parse(localStorage.getItem("users") || "[]");
-  users.forEach(function (user, index) {
-    console.log("[" + index + "]: " + user.name);
-  });
   var user = {
     name: initial,
     score: quiz.score
