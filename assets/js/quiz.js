@@ -139,9 +139,7 @@ var questions = [
 
   new Question("When an operators value is NULL, the typeof returned by the unary operator is:", ["Boolean", "Undefined", "Integer", "Object"], "Object"),
 
-
-
-  new Question("Which function is used to serialize an object into a JSON string in Javascript?", ["stringify()", "parse()", "convert()", "None of the above"], "stringify"),
+  new Question("Which function is used to serialize an object into a JSON string in Javascript?", ["stringify", "parse", "convert", "None of the above"], "stringify"),
 
 ];
 
