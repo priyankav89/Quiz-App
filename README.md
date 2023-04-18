@@ -27,7 +27,7 @@ WHEN all questions are answered or the timer reaches 0, THEN the game is over.
 ![Screenshot](./assets/images/third.png)
 
 WHEN the game is over,THEN you can save  initials and score.
-![Screenshot](./assets/images/last.png)
+
 
 ## Credits
 
